@@ -6,6 +6,7 @@ allow to filter users based on specific criteria, you may want to direct traffic
 
 # usage
 Step 1: copy css and js to your website directory, you may copy the css and js files explicitly to your exisiting structure
+
 Step 2: add css and js reference in your site
 
 put this line in head tag of your website, assuming you have put the css file in css folder of your website root directory
@@ -20,4 +21,7 @@ put this line before </body> tag of your website, assuming you have put the js f
 ```
 
 Step 3: put the code snippet in body of your html after your </footer> tag
+
 Step 4: replace [BLOCK] these tags in html file and js file with your own use case
+
+Thanks
