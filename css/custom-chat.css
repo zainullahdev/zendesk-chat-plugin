@@ -1,0 +1,286 @@
+.chat-window {
+  height: calc(100% - 1.07143rem);
+  background: #fff;
+  border-radius: 0.571429rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0.428571rem 0px;
+}
+
+.chat-cont {
+  position: relative;
+}
+
+.chat-internal-body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: rgb(47, 57, 65);
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  max-width: 100vw;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0.428571rem 0px; */
+  overflow: hidden;
+  border-radius: 0.571429rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.chat-main-container {
+  border: none;
+  background: transparent;
+  z-index: 999999;
+  transform: translateZ(0px);
+  position: fixed;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition-property: opacity, top, bottom;
+  opacity: 1;
+  width: 357px;
+  height: 100%;
+  max-height: 565px;
+  min-height: 150px;
+  margin-left: 8px;
+  margin-right: 8px;
+  right: 0px;
+  bottom: 0px;
+  direction: rtl;
+}
+
+.chat-header {}
+
+.chat-header {
+  color: rgb(255, 255, 255) !important;
+  padding: 1.571429rem 1rem;
+  background: rgb(72, 145, 220) !important;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: rgb(47, 57, 65);
+  height: 100%;
+  width: 100%;
+  max-width: 100vw;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0.428571rem 0px;
+  overflow: hidden;
+  border-radius: 0.571429rem;
+  /* border: none; */
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.chat-header-internal {
+  display: flex;
+  align-content: stretch;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 2rem;
+}
+
+h1.chat-window-title {
+  margin-right: 2rem;
+  margin-left: 4rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.0214286rem;
+  line-height: 1.5;
+  font-size: 16px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  margin-bottom: 2px;
+  margin: 0;
+  font-feature-settings: "kern", "kern";
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, sans-serif;
+}
+
+button.chat-minus-button {
+  border: none;
+  background-color: transparent;
+  width: 2rem !important;
+  height: 2rem !important;
+  color: #68737d;
+  padding: 0;
+  width: 40px;
+  min-width: 0;
+  height: 40px;
+  ine-height: 30px;
+  font-size: 12px;
+  display: inline-block;
+  transition: border-color .25s ease-in-out, box-shadow .1s ease-in-out, background-color .25s ease-in-out, color .25s ease-in-out;
+  margin: 0;
+  border: 1px solid #5293c7;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0 1.92857em;
+  min-width: 3.57143em;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  line-height: 38px;
+  white-space: nowrap;
+  color: #fff;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.chat-form {
+  min-height: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 32px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+img.chat-welcome-icon {
+  width: 80px;
+}
+
+p.chat-welcome-text {
+  padding-top: 32px;
+}
+
+ul.chat-welcome-options li {
+  padding-top: 12px;
+}
+
+ul.chat-welcome-options {
+  text-align: right;
+  /* width: 49%; */
+  padding-right: 66px;
+}
+
+input.chat-input {
+  padding-right: 12px;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea.chat-comment {
+  border-radius: 6px;
+  width: 214px !important;
+  max-width: 214px;
+  height: 100px !important;
+}
+
+.chat-help-request {
+  text-align: center;
+}
+
+.chat-btn-cont {
+  padding-top: 18px;
+}
+
+a.chat-confirm-btn {
+  padding: 8px;
+  background-color: #4891dc;
+  color: #fff;
+  border-radius: 12px;
+  margin: 8px;
+}
+
+a.chat-cancel-btn {
+  padding: 8px;
+  background-color: #b4b4b4;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.chat-hide {
+  display: none !important;
+}
+
+.custom-chat-btn {
+  box-shadow: none;
+  background-color: #4891dc !important;
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  padding: 0.92857rem 1.57143rem;
+  border-radius: 999rem;
+  bottom: 0;
+  letter-spacing: 0.6px;
+  font-size: 1.07143rem;
+  border: none !important;
+  font-weight: 700;
+  box-sizing: border-box;
+  display: table;
+  margin: 0;
+  min-width: 100%;
+  padding: 0;
+  table-layout: auto;
+  white-space: nowrap !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  max-width: 100%;
+  font-feature-settings: "kern", "kern";
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, sans-serif;
+  font-size: 15px;
+  height: 100%;
+  direction: rtl;
+}
+
+.new-chat-icon {
+  border: none;
+  background: transparent;
+  z-index: 999998;
+  transform: translateZ(0px);
+  position: fixed;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition-property: opacity, top, bottom;
+  opacity: 1;
+  height: 50px;
+  max-height: 551px;
+  min-height: 50px;
+  margin: 10px 20px;
+  right: 0px;
+  bottom: 0px;
+  width: 130px;
+}
+
+[dir='rtl'] .icon-3E9qF {
+  padding-left: 0.57143rem;
+  padding-right: 0;
+  vertical-align: middle;
+  display: inline-block !important;
+  max-width: 100%;
+}
+
+p.chat-msg {
+  margin: 14px;
+}
+
+p.chat-error {
+  color: red;
+}
+
+p.chat-success {
+  color: green;
+}
+
+@media only screen and (max-width: 500px) {
+  .chat-window, .chat-main-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+  }
+}
