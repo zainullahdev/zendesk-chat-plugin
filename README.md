@@ -24,4 +24,4 @@ Step 3: put the code snippet in body of your html after your </footer> tag
 
 Step 4: replace [BLOCK] these tags in html file and js file with your own use case
 
-Thanks
+
